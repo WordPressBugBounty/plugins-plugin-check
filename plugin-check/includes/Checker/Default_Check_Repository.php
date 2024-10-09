@@ -44,7 +44,7 @@ class Default_Check_Repository extends Empty_Check_Repository {
 				'enqueued_styles_size'       => new Checks\Performance\Enqueued_Styles_Size_Check(),
 				'code_obfuscation'           => new Checks\Plugin_Repo\Code_Obfuscation_Check(),
 				'file_type'                  => new Checks\Plugin_Repo\File_Type_Check(),
-				'plugin_header_text_domain'  => new Checks\Plugin_Repo\Plugin_Header_Text_Domain_Check(),
+				'plugin_header_fields'       => new Checks\Plugin_Repo\Plugin_Header_Fields_Check(),
 				'late_escaping'              => new Checks\Security\Late_Escaping_Check(),
 				'plugin_updater'             => new Checks\Plugin_Repo\Plugin_Updater_Check(),
 				'plugin_review_phpcs'        => new Checks\Plugin_Repo\Plugin_Review_PHPCS_Check(),
@@ -59,6 +59,7 @@ class Default_Check_Repository extends Empty_Check_Repository {
 				'no_unfiltered_uploads'      => new Checks\Plugin_Repo\No_Unfiltered_Uploads_Check(),
 				'trademarks'                 => new Checks\Plugin_Repo\Trademarks_Check(),
 				'non_blocking_scripts'       => new Checks\Performance\Non_Blocking_Scripts_Check(),
+				'offloading_files'           => new Checks\Plugin_Repo\Offloading_Files_Check(),
 			)
 		);
 

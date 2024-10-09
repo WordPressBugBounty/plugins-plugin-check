@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'wordpress/plugin-check',
-        'pretty_version' => '1.1.0',
-        'version' => '1.1.0.0',
-        'reference' => '07dbc1d252052240923c0bacafbd3299fe75b287',
+        'pretty_version' => '1.2.0',
+        'version' => '1.2.0.0',
+        'reference' => '907908524c86625d2c2d9d273a7ee16896b72634',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -75,6 +75,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'plugin-check/phpcs-sniffs' => array(
+            'pretty_version' => 'dev-486-check-calling-remote-files-js-css-images-etc-offloading-external',
+            'version' => 'dev-486-check-calling-remote-files-js-css-images-etc-offloading-external',
+            'reference' => '03814379724f65217744c9d1e62c72804d4a843d',
+            'type' => 'phpcodesniffer-standard',
+            'install_path' => __DIR__ . '/../plugin-check/phpcs-sniffs',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'sirbrillig/phpcs-variable-analysis' => array(
             'pretty_version' => 'v2.11.19',
             'version' => '2.11.19.0',
@@ -94,9 +103,9 @@
             'dev_requirement' => false,
         ),
         'wordpress/plugin-check' => array(
-            'pretty_version' => '1.1.0',
-            'version' => '1.1.0.0',
-            'reference' => '07dbc1d252052240923c0bacafbd3299fe75b287',
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
+            'reference' => '907908524c86625d2c2d9d273a7ee16896b72634',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
