@@ -7,8 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'WordPress\\Plugin_Check\\' => array($baseDir . '/includes'),
-    'WordPress\\AiClient\\' => array($vendorDir . '/wordpress/php-ai-client/src'),
-    'WordPress\\AI_Client\\' => array($vendorDir . '/wordpress/wp-ai-client/includes'),
     'VariableAnalysis\\' => array($vendorDir . '/sirbrillig/phpcs-variable-analysis/VariableAnalysis'),
     'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
     'Symfony\\Polyfill\\Php73\\' => array($vendorDir . '/symfony/polyfill-php73'),
@@ -20,7 +18,7 @@ return array(
     'Nyholm\\Psr7\\' => array($vendorDir . '/nyholm/psr7/src'),
     'LanguageDetection\\' => array($vendorDir . '/patrickschur/language-detection/src/LanguageDetection'),
     'Http\\Promise\\' => array($vendorDir . '/php-http/promise/src'),
-    'Http\\Message\\' => array($vendorDir . '/php-http/message/src', $vendorDir . '/php-http/message-factory/src'),
+    'Http\\Message\\' => array($vendorDir . '/php-http/message/src'),
     'Http\\Discovery\\' => array($vendorDir . '/php-http/discovery/src'),
     'Http\\Client\\Curl\\' => array($vendorDir . '/php-http/curl-client/src'),
     'Http\\Client\\' => array($vendorDir . '/php-http/httplug/src'),

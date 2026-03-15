@@ -12,15 +12,12 @@ class ComposerStaticInitPlugin_Check_Plugin
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '8cff32064859f4559445b89279f3199c' => __DIR__ . '/..' . '/php-http/message/src/filters.php',
-        'b952b7bb71a5e8271abe3f2cc08a14a8' => __DIR__ . '/..' . '/wordpress/php-ai-client/src/polyfills.php',
     );
 
     public static $prefixLengthsPsr4 = array (
         'W' =>
         array (
             'WordPress\\Plugin_Check\\' => 23,
-            'WordPress\\AiClient\\' => 19,
-            'WordPress\\AI_Client\\' => 20,
         ),
         'V' =>
         array (
@@ -66,14 +63,6 @@ class ComposerStaticInitPlugin_Check_Plugin
         'WordPress\\Plugin_Check\\' =>
         array (
             0 => __DIR__ . '/../..' . '/includes',
-        ),
-        'WordPress\\AiClient\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/wordpress/php-ai-client/src',
-        ),
-        'WordPress\\AI_Client\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/wordpress/wp-ai-client/includes',
         ),
         'VariableAnalysis\\' =>
         array (
@@ -123,7 +112,6 @@ class ComposerStaticInitPlugin_Check_Plugin
         'Http\\Message\\' =>
         array (
             0 => __DIR__ . '/..' . '/php-http/message/src',
-            1 => __DIR__ . '/..' . '/php-http/message-factory/src',
         ),
         'Http\\Discovery\\' =>
         array (
